@@ -1,0 +1,198 @@
+nav{
+    opacity: 73%;
+}
+/* .caption img{
+    height: 10vh;
+    width: 150vh;
+} */
+.brand-logo img{
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+}
+.slider .indicators .indicator-item{
+    max-height: 11px;
+    max-width: 11px;
+}
+.indicator-item.active{
+    background-color: rgb(119, 119, 119) !important;
+    max-height: 11px;
+    max-width: 16px;
+}
+.slides{
+    background-color: rgb(255, 255, 255) !important;
+}
+.slide-title1{
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+} 
+.slide-caption1{
+    position: absolute;
+    top: 280px;
+    right: 0;
+    left: 0;
+}
+.slide-title2{
+    position: absolute;
+    top: 170px;
+    left: 0;
+} 
+.slide-caption2{
+    position: absolute;
+    top: 280px;
+    left: 0;
+}
+.slide-title3{
+    position: absolute;
+    top: 170px;
+    right: 0;
+} 
+.slide-caption3{
+    position: absolute;
+    top: 280px;
+    right: 0;
+}
+.slider h1, h4{
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.7);
+}
+section{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.team{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.team h4{
+    text-shadow: none;
+}
+.parallax{
+    filter: grayscale(15%);
+    opacity: 100% !important;
+}
+.parallax-container{
+    max-height: 75vh;
+}
+.about h4{
+    text-shadow: none;
+}
+.carrer{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+.shadow{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: white;
+}
+/* .apps{
+    filter: contrast(100%);
+    background: url("../image/background.jpg") center center fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+} */
+.apps h4{
+    text-shadow: none;
+   
+}
+.text-justify{
+    text-align: justify;
+}
+.circle{
+    max-height: 26%;
+    max-width: 26%;
+}
+.misi li{
+    list-style-type: circle !important;
+}
+/* .card-panel{
+    height: 85vh;
+    width: 40vh;
+} */
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+.input-field label {
+    color: white !important;
+}
+.input-field input[type=text]:focus + label {
+    color: #ff9800  !important;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ff9800  !important;
+    box-shadow: 0 1px 0 0 #ff9800  !important;
+}
+.input-field .prefix.active {
+    color: #ffa726;
+  }
+
+
+.input-field textarea[type=text].valid {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+.input-field textarea[type=text].invalid {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+.input-field textarea[type=text]:focus + label {
+    color: #ff9800  !important;
+}
+.input-field textarea[type=text]:focus {
+    border-bottom: 1px solid #ff9800  !important;
+    box-shadow: 0 1px 0 0 #ff9800  !important;
+}
+.validate{
+    color: white !important;
+}
+.center .materialboxed,
+.center-align .materialboxed {
+    margin: 0 auto; position: relative !important;
+}
+.android:hover{
+    color: #ffa726 !important;
+}
+.ios:hover{
+    color: #ffa726 !important;
+}
+.instagram:hover{
+    color: #ffa726 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    width: 20px;
+    background: #ffa726;
+}
+.owl-theme .owl-dots .owl-dot span{
+    margin: 3px;
+}
+/* .btn{
+    height: 44px;
+    width: auto;
+    line-height: 44px;
+} */
+.owl-carousel .owl-item img{
+    display: inline;
+}
+.word h4{
+    font-size: 3vw;
+}
+.word p{
+    font-size: 2vw;
+}
+/* .input-field .prefix.active{
+    color: black !important;
+}
+#icon_prefiex{
+    color: black;
+} */
+/* .download{
+    width: 200%;
+    height: 200%;
+} */
