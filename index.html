@@ -30,8 +30,8 @@
             </nav>
         </div>
         <ul class="sidenav" id="mobile-nav">
-            <li><a href="">Apps</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="#apps">Apps</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#team">Team</a></li>
         </ul>
         <ul class="slides">
@@ -320,7 +320,7 @@
 
         const Slide = document.querySelectorAll('.slider');
         M.Slider.init(Slide, {
-            // indicators:false,
+            indicators:false,
             height: 900,
             transition: 500,
             interval: 3500

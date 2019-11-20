@@ -11,8 +11,8 @@ nav{
     padding: 0;
 }
 .slider .indicators .indicator-item{
-    max-height: 11px;
-    max-width: 11px;
+    max-height: 7px;
+    max-width: 7px;
 }
 .indicator-item.active{
     background-color: rgb(119, 119, 119) !important;
@@ -171,6 +171,7 @@ section{
 }
 .owl-theme .owl-dots .owl-dot span{
     margin: 3px;
+    height: 7px;
 }
 /* .btn{
     height: 44px;
