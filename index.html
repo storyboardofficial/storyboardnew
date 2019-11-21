@@ -5,19 +5,24 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
     <div class="slider scrollspy" id="home">
         <div class="navbar-fixed">
-            <nav class="black">
+            <nav class="transparent z-depth-0">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a href="#home" class="brand-logo"><img src="image/storybook.png" width="auto"
-                                height="64px"></a>
+                        <a href="#home" class="brand-logo">Storybook</a>
                         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i
                                 class="material-icons">menu</i></a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -39,7 +44,7 @@
                 <img src="image/5.jpg">
                 <div class="caption center-align">
                     <h1 class="slide-title1">Storybook</h1>
-                    <h4 class="light grey-text text-lighten-3 slide-caption1">Tell me your experience</h4>
+                    <h6 class="light grey-text text-lighten-3 slide-caption1">you can do so much.</h6>
                 </div>
             </li>
 
@@ -47,7 +52,7 @@
                 <img src="image/2.jpg">
                 <div class="caption left-align">
                     <h1 class="slide-title2">Storybook</h1>
-                    <h4 class="light grey-text text-lighten-3 slide-caption2">Tell me your experience</h4>
+                    <h6 class="light grey-text text-lighten-3 slide-caption2">you can do so much.</h6>
                 </div>
             </li>
 
@@ -55,7 +60,7 @@
                 <img src="image/1.jpg">
                 <div class="caption right-align">
                     <h1 class="slide-title3">Storybook</h1>
-                    <h4 class="light grey-text text-lighten-3 slide-caption3">Tell me your experience</h4>
+                    <h6 class="light grey-text text-lighten-3 slide-caption3">you can do so much.</h6>
                 </div>
             </li>
         </ul>
@@ -63,21 +68,23 @@
 
     <section class="apps scrollspy" id="apps">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-left" data-aos-easing="ease-in-sine">
                 <div class="col s4 card-panel center">
                     <img src="image/example1.png" class="responsive-img materialboxed">
                 </div>
                 <div class="col s8 word">
                     <h4>Screenshot 1</h4>
-                    <p class="text-justify flow-text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p class="text-justify flow-text"> Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</p>
                     <a class="waves-effect waves-dark btn orange darken-2"><i
                             class="material-icons right">navigate_next</i>Readmore</a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-easing="ease-in-sine">
                 <div class="col s8 word">
                     <h4>Screenshot 2</h4>
-                    <p class="text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p class="text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
                     <a class="waves-effect waves-dark btn orange darken-2"><i
                             class="material-icons right">navigate_next</i>Readmore</a>
                 </div>
@@ -85,13 +92,14 @@
                     <img src="image/example2.png" class="responsive-img materialboxed">
                 </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-left" data-aos-easing="ease-in-sine">
                 <div class="col s4 card-panel center">
                     <img src="image/example1.png" class="responsive-img materialboxed">
                 </div>
                 <div class="col s8 word">
                     <h4>Screenshot 3</h4>
-                    <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
                     <a class="waves-effect waves-dark btn orange darken-2"><i
                             class="material-icons right">navigate_next</i>Readmore</a>
                 </div>
@@ -106,7 +114,7 @@
         </div>
         <div class="container">
             <div class="owl-carousel owl-theme">
-                <div class="item center">
+                <div class="item center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                     <h5 class="flow-text white-text carrer">CEO</h5>
                     <img src="image/naufal-edit.jpg" alt="" class="circle center">
                     <h6 class="flow-text white-text carrer">Naufal Prakoso</h6>
@@ -120,7 +128,7 @@
                     </p>
                 </div>
 
-                <div class="item center">
+                <div class="item center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                     <h5 class="flow-text white-text carrer">Developer</h5>
                     <img src="image/lius-edit.jpg" alt="" class="circle center">
                     <h6 class="flow-text white-text carrer">Lius Paskalis Tanaka</h6>
@@ -134,7 +142,7 @@
                     </p>
                 </div>
 
-                <div class="item center">
+                <div class="item center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                     <h5 class="flow-text white-text carrer">Product Designer</h5>
                     <img src="image/allicia-edit.jpg" alt="" class="circle">
                     <h6 class="flow-text white-text carrer">Allicia Viona</h6>
@@ -148,7 +156,7 @@
                     </p>
                 </div>
 
-                <div class="item center">
+                <div class="item center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                     <h5 class="flow-text white-text carrer">Developer</h5>
                     <img src="image/yopaw-edit.jpg" alt="" class="circle">
                     <h6 class="flow-text white-text carrer">Yohanes Paulus</h6>
@@ -162,7 +170,7 @@
                     </p>
                 </div>
 
-                <div class="item center">
+                <div class="item center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                     <h5 class="flow-text white-text carrer">Promotion Team</h5>
                     <img src="image/adit-edit.jpg" alt="" class="circle">
                     <h6 class="flow-text white-text carrer">Aditya</h6>
@@ -177,7 +185,7 @@
                     </p>
                 </div>
 
-                <div class="item center">
+                <div class="item center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                     <h5 class="flow-text white-text carrer">Marketing</h5>
                     <img src="image/angelo-edit.jpg" alt="" class="circle">
                     <h6 class="flow-text white-text carrer">Angelo Michaelvin</h6>
@@ -192,7 +200,7 @@
                     </p>
                 </div>
 
-                <div class="item center">
+                <div class="item center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                     <h5 class="flow-text white-text carrer">Promotion Team</h5>
                     <img src="image/rani-edit.jpg" alt="" class="circle">
                     <h6 class="flow-text white-text carrer">Rani</h6>
@@ -214,34 +222,32 @@
     <section class="about white scrollspy" id="about">
         <div class="container">
             <div class="row">
-                <div class="col l7">
-                    <h5><i class="material-icons">bookmark_border</i>Story</h5>
+                <div class="col l7 " data-aos="fade-zoom-in" data-aos-easing="ease-in-sine">
+                    <h5><i class="material-icons">bookmark_border</i><b>S</b>tory</h5>
                     <p class="text-justify">
-                        Menurut sebuah survei pada tahun 2017 oleh Royal Society for Public Health warga Inggris berusia
-                        14-24 tahun yang menggunakan media sosial dipercaya memiliki kerusakan pada kesehatan mental
-                        mereka. Mereka melaporkan bahwa media sosial merupakan sebuah ruangan lebih untuk
-                        mengekspresikan diri dan membangun komunitas. Tetapi mereka juga melaporkan bahwa sosial media
-                        juga dapat menambah kecemasan yang berujung kepada depresi karena sosial media mengintimidasi
-                        dan membuat mereka khawatir akan citra tubuh mereka dan takut ketinggalan hal-hal terbaru yang
-                        ada di dunia maya.
+                        According to a 2017 survey by the Royal Society for Public Health, Britons earn 14-24 years
+                        using social media.
+                        They report that social media is more space for self-talk and community building.
+                        In addition, they also issue a report on social media which can also issue opinions about social
+                        media
+                        that strengthen and make them worry about their body image and fear of missing the latest things
+                        in cyberspace.
                         <br><br>
-                        Salah satu hal yang memunculkan rasa khawatir pada saat membuka media sosial adalah disaat kita
-                        membandingkan diri kita dengan orang lain yang memiliki profil publik di media sosial. Rasa
-                        khawatir ini disebut dengan Fear of Personal Failure atau ketakutan akan kegagalan pribadi
-                        seperti yang dilampirkan di situs Anxiety.org.
+                        One of the things that gives rise to worry when we open social media is that we compare
+                        ourselves to other people who have a public profile on social media.
+                        This worry is called Fear of Personal Failure or failure will be added to the Anxiety.org site.
                     </p>
                 </div>
 
-                <div class="col l4 offset-l1">
-                    <h5>Visi</h5>
-                    <p class="text-justify">Menghubungkan pengguna dengan dunia dan mempererat hubungan dengan diri
-                        sendiri.</p>
-                    <h5>Misi</h5>
+                <div class="col l4 offset-l1" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine">
+                    <h5><b>V</b>ision</h5>
+                    <p class="text-justify">To help people connect with themselves and other people around the globe</p>
+                    <h5><b>M</b>ision</h5>
                     <ul class="misi">
-                        <li>Menyediakan platform pengembangan diri melalui online journaling.</li>
-                        <li>Platform untuk meningkatkan koneksi dengan pengguna lain.</li>
-                        <li>Platform untuk berkarya</li>
-                        <li>Platform untuk mempromosikan produk dan wisata lokal</li>
+                        <li>Provide a platform for self-development through online journaling</li>
+                        <li>Provide a platform for connecting ourself to people around the globe</li>
+                        <li>Provide a platform for content creator</li>
+                        <li>Promoting local business and local destination</li>
                     </ul>
                 </div>
 
@@ -314,13 +320,17 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         const Nav = document.querySelectorAll('.sidenav');
         M.Sidenav.init(Nav);
 
         const Slide = document.querySelectorAll('.slider');
         M.Slider.init(Slide, {
-            indicators:false,
+            // indicators:false,
             height: 900,
             transition: 500,
             interval: 3500
@@ -361,6 +371,24 @@
                 }
             }
         })
+
+        AOS.init({
+            duration: 1000
+        })
+
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 200) {
+                $('nav').addClass('shrink');
+            } else {
+                $('nav').removeClass('shrink');
+            }
+        })
+
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+
+
     </script>
 </body>
 
